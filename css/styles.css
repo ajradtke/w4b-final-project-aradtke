@@ -1,44 +1,81 @@
+@font-face {
+    font-family: acme;
+    src: url(/fonts/Acme/Acme-Regular.ttf);
+}
+
+@font-face {
+    font-family: amaranth-regular;
+    src: url(/fonts/Amaranth/Amaranth-Regular.ttf)
+}
+
+@font-face {
+    font-family: russo-one;
+    src: url(/fonts/Russo_One/RussoOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: righteous;
+    src: url(/fonts/Righteous/Righteous-Regular.ttf);
+}
+
 .nav-nav-bar {
     /* background-color: blue; */
     z-index: 100;
     position: fixed;
     width: 100%;
     top: 0;
-    background-color: rgba(0,0,0,0.5)
+    background-color: rgba(0,0,0,0.3);
+}
+
+.div-nav-bar-container {
+    padding: 0;
 }
 
 li {
     display: inline-block;
     vertical-align: middle;
-    position: sticky;
-    top: 0;
 }
 
 .li-nav-menu-items {
     width: max-content;
     height: max-content;
-    margin: 30px;
+    margin: 10px;
     color: white;
     padding: 15px;
-    background-color: black;
-    text-transform: uppercase;
+    /* background-color: black; */
+    /* text-transform: uppercase; */
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-radius: 15px;
+    font-family: righteous;
+    font-size: 18px;
     
 }
 
+.nav-links {
+    text-decoration: none;
+}
+
+.nav-links:visited {
+    color: white;
+}
+
 .nav-logo {
-    margin-top: 12px;
+    padding-right: 15px;
+    padding-top: 10px;
+
 }
 
 body {
     height: 100%;
+    float: left;
 }
 
 .hero-image {
-    border-style: dashed;
+    /* border-style: dashed; */
     background-image: linear-gradient(rgba (0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     background-image: url(/img/hero-image.webp);
+    width: 100%;
+    top: 0;
     z-index: 99;
     height: 500px;
     background-position: center;
@@ -55,4 +92,60 @@ body {
     top: 25%;
     left: 50%;
     transform: translate(-50%, 50%);
+    font-family: righteous;
 }
+
+.hero-header {
+    margin-bottom: -10px;
+}
+
+.hero-button {
+    font-family: righteous;
+}
+
+.row {
+    float: left;
+    width: 40%;
+}
+
+.aside {
+    float:right;
+    width: 40%;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.follow-us {
+    width: 100%;
+    height: 10px;
+    background-color: rgba(0,0,0,0.3);
+    text-align: center;
+    font-family: righteous;
+    font-size: 18px;
+}
+
+.div-footer {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.div-footer {
+    display: inline-block;
+}
+
+.ul-footer {
+    text-align: center;
+    padding: 0;
+}
+
+.footer-logo {
+    color: black;
+}
+
+.footer-logo:hover {
+    opacity: 0.5;
+}
+
