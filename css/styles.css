@@ -44,7 +44,7 @@
     display: table-cell;
     height: 100%;
     vertical-align: middle;
-    background-color: rgba(0,0,0,0.5)
+    background-color: black;
 }
 
 .li-nav-menu-items {
@@ -95,34 +95,94 @@
 /* Hero Image */
 
 .div-hero-image {
-    height: 500px;
+    display: table;
+    height: 1080px;
     width: 100%;
     /* border-style: dashed; */
-    z-index: 99;
+    z-index: -1;
     background-image: url(/img/hero-image.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .hero-image-text {
-    width: 100%;
+    display: table-cell;
+    width: max-content;
     height: max-content;
     color: white;
     font-family: righteous;
     text-align: center;
-    transform: translate(0, 80%);
+    vertical-align: middle;
+    background-color: rgba(0,0,0,.5)
+
+}
+
+.hero-image-text-header {
+    font-size: 50px;
+}
+
+.hero-image-text-p {
+    font-size: 30px;
 }
 
 /* Body Content */
 
+.hero-video-banner {
+    height: 50px;
+    width: 100%;
+    display: table;
+    color: #8B00F2;
+    /* background-color: rgba(0,0,0,0.3) */
+}
+
+.hero-video-banner-text {
+    display: table-cell;
+    font-family: righteous;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 30px;
+}
+
+.hero-video {
+    width: 100%;
+    display: table;
+    /* background-color: rgba(0,0,0,0.3); */
+    font-family: righteous;
+}
+
+.hero-video-header {
+    text-align: center;
+    background-color: #8B00F2;
+    border-radius: 15px;
+    padding: 15px;
+    color: white;
+    /* width: 80%; */
+}
+
+.hero-video-column {
+    display: table-cell;
+    height: 500px;
+    width: 25%;
+    /* border-style: dashed; */
+    line-height: 30px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.hero-video-content {
+    padding: 0 12.5% 0 12.5%;
+}
+
 .row {
     float: left;
     width: 40%;
+    font-family: righteous;
 }
 
 .aside {
     float:right;
     width: 40%;
+    font-family: righteous;
 }
 
 .clearfix {
@@ -134,48 +194,55 @@
 .page-footer {
     width: 100%;
     display: table;
-    background-color: rgba(0,0,0,0.8)
+    background-color: #8B00F2;
 }
 
 .footer-menu-item {
     display: inline-block;
     text-align: center;
-
-
 }
 
 .footer-follow-us {
     list-style-type: none;
 }
 
-.follow-us {
-    
+.follow-us {   
     height: max-content;
     text-align: center;
     font-family: righteous;
     font-size: 18px;
+    color: white;
+}
+
+.footer-locations {
+    font-family: righteous;
+    text-align: center;
+    font-size: 18px;
+}
+
+.footer-location-list {
+    display: inline;
+    list-style-type: none;
+    color: white;
 }
 
 .div-footer {
-    width: 40%;
-    height: 300px;
+    width: 33.33%;
 }
 
 .footer-map-embed {
-    width: 50%;
+    width: 33.33%;
 }
 
 .footer-total {
     list-style-type: none;
     vertical-align: middle;
-    height: 500px;
     display: table-cell;
 }
 
 .google-map-embed {
     padding: 15px;
-    height: 275px;
-    
+    height: 350px;  
 }
 
 .ul-footer {
@@ -185,10 +252,93 @@
 }
 
 .footer-logo {
-    color: black;
+    color: white;
 }
 
 .footer-logo:hover {
     opacity: 0.5;
+}
+
+/* About Page */
+
+.mission-container {
+    display: table;
+    width: 100%;
+    height: 300px;
+}
+
+.div-mission-container {
+    width: 50%;
+    display: table-cell;
+}
+
+.mission-container-img {
+    background-image: url(/img/slideshow3.jpg);
+    background-repeat: no-repeat;
+    background-position: 60% 15%;
+}
+
+.mission-container-text {
+    background-color: rgba(0,0,0,0.8);
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+    font-family: righteous;
+}
+
+.mission-header {
+    font-size: 50px;
+}
+
+.mission-content {
+    font-size: 30px;
+}
+
+.story-container {
+    display: table;
+    width: 100%;
+    height: 300px;
+}
+
+.div-story-container {
+    width: 50%;
+    display: table-cell;
+}
+
+.story-container-img {
+    background-image: url(/img/slideshow1.jpg);
+    background-repeat: no-repeat;
+    background-position: 70% 15%;
+}
+
+.story-container-text {
+    background-color: rgba(0,0,0,0.8);
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+    font-family: righteous;
+}
+
+.story-header {
+    font-size: 50px;
+}
+
+.story-content {
+    font-size: 30px;
+}
+
+.about-page-footer {
+    width: 100%;
+    display: table;
+    background-color: rgba(0,0,0,0.5);
+
+}
+
+/* Contact Page */
+
+.input[type=text], textarea {
+    width: 100%;
+    border: 1px solid black;
+    resize: none;
 }
 
