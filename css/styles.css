@@ -189,6 +189,11 @@
     clear: both;
 }
 
+.wrap {
+    width: 90%;
+    margin: 0 auto;
+}
+
 /* Footer */
 
 .page-footer {
@@ -238,6 +243,7 @@
     list-style-type: none;
     vertical-align: middle;
     display: table-cell;
+    font-family: righteous;
 }
 
 .google-map-embed {
@@ -257,6 +263,10 @@
 
 .footer-logo:hover {
     opacity: 0.5;
+}
+
+.copyright {
+    color: white;
 }
 
 /* About Page */
