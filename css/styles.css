@@ -341,14 +341,13 @@
     width: 100%;
     display: table;
     background-color: rgba(0,0,0,0.5);
-
 }
 
 /* Contact Page */
 
 .input[type=text], textarea {
     width: 100%;
-    border: 1px solid black;
+    border: 3px solid black;
     resize: none;
 }
 
