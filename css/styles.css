@@ -1,21 +1,21 @@
 @font-face {
     font-family: acme;
-    src: url(/fonts/Acme/Acme-Regular.ttf);
+    src: url(https://ajradtke.github.io/w4b-final-project-aradtke/fonts/Acme/Acme-Regular.ttf);
 }
 
 @font-face {
     font-family: amaranth-regular;
-    src: url(/fonts/Amaranth/Amaranth-Regular.ttf)
+    src: url(https://ajradtke.github.io/w4b-final-project-aradtke/fonts/Amaranth/Amaranth-Regular.ttf)
 }
 
 @font-face {
     font-family: russo-one;
-    src: url(/fonts/Russo_One/RussoOne-Regular.ttf);
+    src: url(https://ajradtke.github.io/w4b-final-project-aradtke/fonts/Russo_One/RussoOne-Regular.ttf);
 }
 
 @font-face {
     font-family: righteous;
-    src: url(/fonts/Righteous/Righteous-Regular.ttf);
+    src: url(https://ajradtke.github.io/w4b-final-project-aradtke/fonts/Righteous/Righteous-Regular.ttf);
 }
 
 /* Nav Bar */
@@ -100,7 +100,7 @@
     width: 100%;
     /* border-style: dashed; */
     z-index: -1;
-    background-image: url(/img/hero-image.webp);
+    background-image: url(https://ajradtke.github.io/w4b-final-project-aradtke/img/hero-image.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -283,7 +283,7 @@
 }
 
 .mission-container-img {
-    background-image: url(/img/slideshow3.jpg);
+    background-image: url(https://ajradtke.github.io/w4b-final-project-aradtke/img/slideshow3.jpg);
     background-repeat: no-repeat;
     background-position: 60% 15%;
 }
@@ -316,7 +316,7 @@
 }
 
 .story-container-img {
-    background-image: url(/img/slideshow1.jpg);
+    background-image: url(https://ajradtke.github.io/w4b-final-project-aradtke/img/slideshow1.jpg);
     background-repeat: no-repeat;
     background-position: 70% 15%;
 }
